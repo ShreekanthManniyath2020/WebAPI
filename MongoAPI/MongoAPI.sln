@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoAPI", "MongoAPI.csproj", "{9AE69E05-88C4-4959-A876-FBF386D487CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.DataLayer.DB", "..\Application.DataLayer.DB\Application.DataLayer.DB.csproj", "{4F354B36-E966-4DB0-8F0C-AE1A5AE83686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.DataLayer.DB", "..\Application.DataLayer.DB\Application.DataLayer.DB.csproj", "{4F354B36-E966-4DB0-8F0C-AE1A5AE83686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITester", "..\APITester\APITester.csproj", "{2A14EB4C-980C-45E3-A989-B9067E89CE9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4F354B36-E966-4DB0-8F0C-AE1A5AE83686}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F354B36-E966-4DB0-8F0C-AE1A5AE83686}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F354B36-E966-4DB0-8F0C-AE1A5AE83686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A14EB4C-980C-45E3-A989-B9067E89CE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A14EB4C-980C-45E3-A989-B9067E89CE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A14EB4C-980C-45E3-A989-B9067E89CE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A14EB4C-980C-45E3-A989-B9067E89CE9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
